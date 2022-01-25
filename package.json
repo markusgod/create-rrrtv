@@ -1,11 +1,10 @@
 {
   "name": "create-rrrtv",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": "Mark Nefedov",
   "bin": {
-    "create-rrrtv": "index.js",
-    "cva": "index.js"
+    "create-rrrtv": "index.js"
   },
   "files": [
     "index.js",
