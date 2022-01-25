@@ -1,0 +1,26 @@
+{
+  "name": "create-rrrtv",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Mark Nefedov",
+  "bin": {
+    "create-rrrtv": "index.js",
+    "cva": "index.js"
+  },
+  "files": [
+    "index.js",
+    "template-*"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s --commit-path . --lerna-package create-rrrtv"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "dependencies": {
+    "kolorist": "^1.5.1",
+    "minimist": "^1.2.5",
+    "prompts": "^2.4.2"
+  }
+}
