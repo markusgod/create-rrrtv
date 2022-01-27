@@ -23,7 +23,7 @@ const cwd = process.cwd()
 
 const FRAMEWORKS = [
   {
-    name: 'rrrtv',
+    name: 'React, Recoil, Router, Tailwind',
     color: cyan,
     variants: [
       {
@@ -34,7 +34,7 @@ const FRAMEWORKS = [
     ]
   },
    {
-    name: 'rrrcv',
+    name: 'React, Recoil, Router, Chakra',
     color: cyan,
     variants: [
       {
@@ -45,11 +45,11 @@ const FRAMEWORKS = [
     ]
   },
   {
-    name: 'rnc',
+    name: 'Next.js, Chakra',
     color: cyan,
     variants: [
       {
-        name: 'rnc-js',
+        name: 'rnc',
         display: 'JavaScript',
         color: blue
       }
