@@ -32,6 +32,17 @@ const FRAMEWORKS = [
         color: blue
       }
     ]
+  },
+   {
+    name: 'rrrcv',
+    color: cyan,
+    variants: [
+      {
+        name: 'rrrcv-ts',
+        display: 'TypeScript',
+        color: blue
+      }
+    ]
   }
 ]
 
