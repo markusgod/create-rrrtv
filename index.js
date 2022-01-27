@@ -43,6 +43,17 @@ const FRAMEWORKS = [
         color: blue
       }
     ]
+  },
+  {
+    name: 'rnc',
+    color: cyan,
+    variants: [
+      {
+        name: 'rnc-js',
+        display: 'JavaScript',
+        color: blue
+      }
+    ]
   }
 ]
 
